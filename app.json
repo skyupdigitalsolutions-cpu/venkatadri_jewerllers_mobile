@@ -1,11 +1,14 @@
 {
   "expo": {
     "name": "AgriZip",
-    "slug": "agrizip-microfinance",
+    "slug": "skyup",
     "version": "1.0.0",
     "scheme": "agrizip",
     "orientation": "portrait",
-    "platforms": ["android", "ios"],
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
@@ -28,6 +31,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "35042bad-408c-45a7-be34-41e28b4dfad0"
+      }
+    },
+    "owner": "skyup-digital-solutions-llp"
   }
 }
